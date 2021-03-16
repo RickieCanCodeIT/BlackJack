@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//A blackjack application. Beat the dealer's hand or lose. Look up Blackjack rules for more description.
 public class BlackjackApp {
     public static Deck currentDeck;
     public static Player dealer;
@@ -9,7 +10,7 @@ public class BlackjackApp {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         currentDeck = new Deck();
-        String playAgain = "yes";
+        String playAgain;
         do {
             dealer = new Player("Dealer", new ArrayList<>());
             user = new Player("User", new ArrayList<>());

@@ -1,3 +1,4 @@
+//A card in the standard 52 card deck
 public class Card {
     private CardValue cardValue;
     private Suit suit;

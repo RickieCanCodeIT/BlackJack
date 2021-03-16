@@ -1,3 +1,4 @@
+//The numerical value of the card, in text and number format. If the name is Ace isAce should be true.
 public class CardValue {
     private String name;
     private int value;
@@ -6,7 +7,7 @@ public class CardValue {
     public CardValue(String name, int value) {
         this.name = name;
         this.value = value;
-        this.isAce = name.equals("Ace");
+        this.isAce = name.toLowerCase().equals("Ace");
     }
 
     public String getName() {

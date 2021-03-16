@@ -1,3 +1,4 @@
+//A card's suit
 public class Suit {
     private String name;
     private char suitCode;

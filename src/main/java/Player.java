@@ -1,5 +1,6 @@
 import java.util.List;
 
+//A blackjack player, either the user or the dealer.
 public class Player {
     private String name;
     private List<Card> hand;
